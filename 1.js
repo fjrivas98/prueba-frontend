@@ -3,6 +3,7 @@
 // crea una función findUniq que retorne el elemento único.
 
 function findUniq(array) {
+    return array.find(item => array.indexOf(item) === array.lastIndexOf(item) );
 }
 
 
